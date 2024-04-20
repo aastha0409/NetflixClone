@@ -1,0 +1,277 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.firstContainer {
+    background-image: url(../images/header-image.jpg);
+    padding-top: 1%;
+    padding-bottom: 12%;
+    background-size: cover;
+}
+
+.navBar {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.netflixLogoDiv {
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+
+.netflixLogoImage {
+    width: 50%;
+}
+
+.signUpButtonDiv {
+    margin-left: auto;
+    margin-right: 2%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.signUpButton {
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.textContent {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.textHeadingDiv {
+    /* border: 1px solid green; */
+    margin: auto;
+    text-align: center;
+    width: 44%;
+}
+
+.textHeading {
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.textSubHeadingDiv {
+    margin: auto;
+    margin-top: 1%;
+    width: 32%;
+}
+
+.textSubHeading {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.textSmallHeadingDiv {
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    text-align: center;
+}
+
+.textSmallHeading {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.enterEmailDiv {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.inputEmail {
+    margin: auto;
+    padding: 7% 110% 7% 4%;
+    font-size: 1rem;
+    border: none;
+}
+
+.freeTrialButtonDiv {
+    /* border: 1px solid violet; */
+    margin: auto;
+    margin-right: 0;
+}
+
+.freeTrialButton {
+    background-color: red;
+    color: white;
+    border: 8px solid red;
+    border-radius: 1px;
+    font-size: 1.8rem;
+}
+
+.containerSecond {
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: black;
+    padding: 5% 0%;
+
+}
+
+.leftPart {
+    margin: auto;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.leftPartHeading {
+    /* border: 1px solid white; */
+    width: 70%;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.leftPartText {
+    margin-top: 1%;
+    /* border: 1px solid white; */
+    width: 70%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.rightPart {
+    /* border: 3px solid red; */
+
+}
+
+.rightPartImage {
+    /* border: 1px solid wheat; */
+    width: 80%;
+    margin-left: 8%;
+
+}
+
+hr {
+    height: 2px;
+    background-color: #303030;
+    border: none;
+}
+
+.containerThird {
+    display: flex;
+    /* border: 1px solid blue; */
+    padding: 5% 0%;
+}
+
+.leftPart {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.leftPartImage {
+    width: 70%;
+}
+
+.rightPart {
+    /* border: 1px solid violet; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rigthPartHeading {
+    /* border: 1px solid blue; */
+    width: 70%;
+    font-size: 3.4rem;
+    font-weight: 700;
+    /* color: white; */
+}
+
+.rigthPartText {
+    margin-top: 1%;
+    /* border: 1px solid white; */
+    width: 70%;
+    font-size: 1.5rem;
+    /* color: white; */
+}
+
+
+.containerThird {
+    background-color: black;
+    color: white;
+}
+
+
+.fifthContainer {
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    padding: 3% 0%;
+}
+
+
+.faq {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fifthHeading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.questions {
+
+    margin-top: 1%;
+    /* border: 1px solid red; */
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 0.4% 1%;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+
+    /* color: white; */
+
+}
+
+
+.footer {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer span {
+    margin-top: 5%;
+    font-size: 20px;
+}
